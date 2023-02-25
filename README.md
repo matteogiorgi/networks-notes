@@ -1,7 +1,7 @@
 # Appunti reti
 
 - [Elearning](https://elearning.di.unipi.it/course/view.php?id=312)
-- [Slides](https://mega.nz/folder/p9g2jJIC#rgxBwscE3or3m5gwBEUU2A)
+- [Slides](https://mega.nz/folder/kxAFjTya#DdpylJrqtSZ-q8tG5KCSZg)
 
 
 ## Programma
