@@ -74,3 +74,45 @@ TCP uses the information in the IP header to demultiplex the data to the appropr
 TCP also uses the IP header to calculate the checksum of the TCP segment. The checksum is used to ensure that the TCP segment has not been corrupted in transit.
 
 TCP reading the IP header is an essential part of how the TCP/IP protocol works. It allows TCP to establish connections with remote hosts, demultiplex data to the appropriate applications, and ensure the integrity of data in transit.
+
+
+
+
+## Inoltro vs Indirizzamento
+
+Routing and forwarding are two important concepts in computer networking. They are both used to move data between devices, but they do so in different ways.
+
+<u>**Routing** is the process of determining the route that a packet will take from its source to its destination.</u> Routers use routing tables to store information about the networks that they are connected to and the best routes to those networks. When a router receives a packet, it uses its routing table to determine the next hop that the packet should take. The next hop is the router that is closest to the packet's destination.
+
+<u>**Forwarding** is the process of moving a packet from one router to the next.</u> Routers use forwarding tables to store information about the interfaces that they are connected to and the MAC addresses of the devices that are connected to those interfaces. When a router receives a packet, it uses its forwarding table to determine the interface that the packet should be sent out of. The interface is the link that will take the packet closer to its destination.
+
+<u>The main difference between routing and forwarding is that routing is a process that determines the route that a packet will take, while forwarding is a process that moves a packet from one router to the next.</u>
+
+Here is a table that summarizes the key differences between routing and forwarding:
+
+| Feature | Routing | Forwarding |
+|---|---|---|
+| Purpose | Determine the route that a packet will take | Move a packet from one router to the next |
+| Where it occurs | Control plane | Data plane |
+| Information used | Routing table | Forwarding table |
+| Timescale | Minutes or hours | Microseconds |
+
+
+
+
+## Che indirizzo usa un router all'interno di una rete?
+
+The IP address of a router inside a network is typically in the same subnet as the devices that are connected to the router. For example, if a router is connected to a network with the IP address range 192.168.1.0/24, then the router's IP address will be in the range 192.168.1.1 to 192.168.1.254. <u>The router's IP address is typically the first IP address in the subnet.</u>
+
+
+
+
+## Routing table vs Fourwarding table vs ARP table
+
+<u>Routing table and forwarding table are located exclusively in the routers.</u> Terminal hosts do not have routing tables or forwarding tables. Instead, they use the ARP table to resolve IP addresses to MAC addresses.
+
+The routing table and forwarding table are used by routers to forward packets to their destinations. The routing table stores information about the networks that the router is connected to and the best routes to those networks. The forwarding table stores information about the interfaces that the router is connected to and the MAC addresses of the devices that are connected to those interfaces.
+
+> *When a router receives a packet, it looks up the destination IP address in the routing table to find the best route to the destination network. The router then looks up the destination MAC address in the forwarding table to find the interface that the packet should be sent out of. The router then sends the packet out of the interface.*
+
+<u>Terminal hosts do not need routing tables or forwarding tables because they do not forward packets.</u> Terminal hosts only need to send and receive packets. The ARP table is used by terminal hosts to resolve IP addresses to MAC addresses so that they can send packets to other devices on the network.

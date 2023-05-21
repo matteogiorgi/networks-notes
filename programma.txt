@@ -1,0 +1,105 @@
+PROGRAMMA RETI 2022-2023
+=========================
+
+- introduzione
+    - LAN
+    - WAN
+    - commutazione di pacchetto/circuito
+    - ISP
+    - metriche
+        - larghezza di banda
+        - velocità di connessione
+        - throughput
+        - latenza
+            - elaborazione (trascurabile)
+            - accodamento (trascurabile)
+            - trasmissione
+            - propagazione
+- modello ISO/OSI
+- stack TCP/IP
+- livello applicazione
+    - socket
+    - URI/URL
+    - HTTP
+        - persistente/non persistente
+        - pipeline
+        - formato messaggi richiesta/risposta
+        - metodi
+        - caching
+        - cookies
+    - TELNET
+    - SMTP
+        - formato messaggi
+        - MIME
+        - accesso alla mail
+    - POP
+    - IMAP
+    - DNS
+        - spazio dei nomi
+        - name server
+        - query iterative/ricorsive
+        - record DNS
+    - FTP
+        - control connection
+        - data connection
+- livello trasporto
+    - servizio orientato/non orientato alla connessione
+    - mutiplexing/demultiplexing
+    - porte riservate
+    - TCP
+        - formato del segmento TCP
+        - numero sequenza e riscontro
+        - instaurazione e chiusura connessione (3-way handshake)
+        - trasferimento dati affidabile
+        - finestra trasmissione/ricezione
+        - controllo di flusso
+        - controllo congestione
+        - TCP Tahoe
+        - TCP Reno
+    - UDP
+        - formato del datagramma UDP
+        - pseudoheader
+        - checksum
+        - TCP vs UDP
+- livello rete
+    - IP
+        - modello datagram
+        - formato del pacchetto IP
+        - frammentazione
+        - indirizzamento IP
+        - addressing flassfull/classless
+        - subnet mask
+        - aggregazione degli indirizzi
+        - forwarding diretto/indiretto
+        - NAT
+    - DHCP
+    - ICMP
+        - ping
+        - traceroute
+    - architettura router
+        - control plane/data plane
+        - routing decentralizzato/centralizzato
+        - algoritmi di routing
+        - distance vector/link state
+        - routing gerarchico
+        - sistemi autonomi (routing inter-AS)
+    - BGP
+    - RIP
+    - OSPF
+    - IPv6
+    - dual stack
+    - IPv4 tunneling
+- livello collegamento
+    - protocollo MAC
+    - ARP
+    - ethernet
+    - dispositivi di interconnessione (switch, hub)
+    - VLAN
+- applicazioni p2p
+    - reti p2p
+    - bittorrent
+- sicurezza
+    - cifratura
+    - firma digitale
+    - IPSec
+    - SSL/TLS
