@@ -2,6 +2,7 @@
 
 - [Elearning](https://elearning.di.unipi.it/course/view.php?id=312)
 - [Slides](https://mega.nz/folder/kxAFjTya#DdpylJrqtSZ-q8tG5KCSZg)
+- [Notes](notes.md)
 
 
 ## Programma
