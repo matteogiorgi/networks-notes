@@ -1,3 +1,5 @@
+# Approfondimenti
+
 ## DNS (UDP vs TCP)
 
 Il protocollo DNS (Domain Name System) può utilizzare sia TCP (Transmission Control Protocol) che UDP (User Datagram Protocol) come protocolli di trasporto, a seconda delle circostanze e delle esigenze.
@@ -82,9 +84,9 @@ TCP reading the IP header is an essential part of how the TCP/IP protocol works.
 
 Routing and forwarding are two important concepts in computer networking. They are both used to move data between devices, but they do so in different ways.
 
-<u>**Routing** is the process of determining the route that a packet will take from its source to its destination.</u> Routers use routing tables to store information about the networks that they are connected to and the best routes to those networks. When a router receives a packet, it uses its routing table to determine the next hop that the packet should take. The next hop is the router that is closest to the packet's destination.
+<u>*Routing* is the process of determining the route that a packet will take from its source to its destination.</u> Routers use routing tables to store information about the networks that they are connected to and the best routes to those networks. When a router receives a packet, it uses its routing table to determine the next hop that the packet should take. The next hop is the router that is closest to the packet's destination.
 
-<u>**Forwarding** is the process of moving a packet from one router to the next.</u> Routers use forwarding tables to store information about the interfaces that they are connected to and the MAC addresses of the devices that are connected to those interfaces. When a router receives a packet, it uses its forwarding table to determine the interface that the packet should be sent out of. The interface is the link that will take the packet closer to its destination.
+<u>*Forwarding* is the process of moving a packet from one router to the next.</u> Routers use forwarding tables to store information about the interfaces that they are connected to and the MAC addresses of the devices that are connected to those interfaces. When a router receives a packet, it uses its forwarding table to determine the interface that the packet should be sent out of. The interface is the link that will take the packet closer to its destination.
 
 <u>The main difference between routing and forwarding is that routing is a process that determines the route that a packet will take, while forwarding is a process that moves a packet from one router to the next.</u>
 
@@ -116,3 +118,16 @@ The routing table and forwarding table are used by routers to forward packets to
 > *When a router receives a packet, it looks up the destination IP address in the routing table to find the best route to the destination network. The router then looks up the destination MAC address in the forwarding table to find the interface that the packet should be sent out of. The router then sends the packet out of the interface.*
 
 <u>Terminal hosts do not need routing tables or forwarding tables because they do not forward packets.</u> Terminal hosts only need to send and receive packets. The ARP table is used by terminal hosts to resolve IP addresses to MAC addresses so that they can send packets to other devices on the network.
+
+
+
+
+## Header ICMP protocol
+
+The ICMP header is 8 bytes long and consists of the following fields:
+
+* <u>Type:</u> This field specifies the type of ICMP message. There are many different types of ICMP messages, each with a specific purpose.
+* <u>Code:</u> This field provides additional information about the ICMP message. The specific meaning of the code field depends on the type of ICMP message.
+* <u>Checksum:</u> This field is used to verify the integrity of the ICMP header.
+* <u>Identifier:</u> This field is a 16-bit value that is used to identify the ICMP message.
+* <u>Sequence Number:</u> This field is a 16-bit value that is used to sequence ICMP messages.
