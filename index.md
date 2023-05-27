@@ -2,6 +2,7 @@
 
 - [Elearning](https://elearning.di.unipi.it/course/view.php?id=312)
 - [Slides](https://mega.nz/folder/kxAFjTya#DdpylJrqtSZ-q8tG5KCSZg)
+- [Registrazioni](https://unipiit.sharepoint.com/:f:/r/sites/a__td_55555/Shared%20Documents/General/REGISTRAZIONI/registrazioni_RETI?csf=1&web=1&e=gTVPtF)
 - [Approfondimenti](approfondimenti.md)
 
 
